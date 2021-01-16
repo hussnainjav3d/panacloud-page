@@ -42,16 +42,21 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="">
             </div>
+            <div class="menu-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <div class="menu">
                 <ul class="menu-list flex">
-                    <li><a href="#">why us</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">process</a></li>
-                    <li><a href="#">review</a></li>
-                    <li><a href="#">our skills</a></li>
-                    <li><a href="#">contact us</a></li>
+                    <li class="menu-item"><a href="#why-us">why us</a></li>
+                    <li class="menu-item"><a href="#about-us">about</a></li>
+                    <li class="menu-item"><a href="#">services</a></li>
+                    <li class="menu-item"><a href="#">portfolio</a></li>
+                    <li class="menu-item"><a href="#">process</a></li>
+                    <li class="menu-item"><a href="#">review</a></li>
+                    <li class="menu-item"><a href="#">our skills</a></li>
+                    <li class="menu-item"><a href="#">contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -64,13 +69,13 @@
             <a href="#" class="btn">Read More</a>
         </div>
     </header>
-    <section class="container why-us">
-        <div class="why-heading">
+    <section id="why-us" class="container why-us">
+        <div class="heading">
             <h2 class="uppercase lg-text">Our <span class="text-green ">advantages</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eum similique repellendus, velit incidunt
                 eaque ipsam dolore cupiditate omnis culpa?</p>
         </div>
-        <div class="why-cards flex">
+        <div class="why-cards">
             <div class="card">
                 <div class="card-icon"><i class="far fa-lightbulb"></i></div>
                 <div class="crad-info">
@@ -93,17 +98,83 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-icon"><i class="far fa-lightbulb"></i></div>
+                <div class="card-icon"><i class="fas fa-users"></i></div>
                 <div class="crad-info">
                     <h4 class="uppercase">happy clients</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ea.</p>
                 </div>
             </div>
             <div class="card">
-                <div class="card-icon"><i class="far fa-lightbulb"></i></div>
+                <div class="card-icon"><i class="far fa-comments"></i></div>
                 <div class="card-info">
                     <h4 class="uppercase">support</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us" class="container about-us">
+        <div class="heading">
+            <h2 class="uppercase lg-text">About <span class="text-green ">us</span></h2>
+        </div>
+        <div class="split">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi natus molestiae maxime ut enim
+                    praesentium at impedit accusantium! Veniam, quia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio quidem porro perspiciatis
+                    harum nobis cupiditate voluptas commodi totam nesciunt. Fuga eum laudantium facere. Quaerat eligendi
+                    excepturi asperiores quibusdam. Obcaecati.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat possimus aspernatur maiores
+                    voluptate iure quis architecto quam optio porro voluptas quae doloremque et asperiores excepturi
+                    quaerat eveniet, itaque molestiae natus?</p>
+                <a href="#about-us" class="btn">Read more</a>
+            </div>
+            <div>
+                <img src="./img/about-us.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="container our-services" id="our-services">
+        <div class="heading">
+            <h2 class="uppercase lg-text">Our <span class="text-green">services</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus officia eveniet fuga
+                ducimus dolorum.</p>
+        </div>
+        <div class="service-card-list">
+            <div class="service-card">
+                <i class="fas fa-star service-icons"></i>
+                <div class="service-text">
+                    <h3>WEB DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#our-services">Read More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-star service-icons"></i>
+                <div class="service-text">
+                    <h3>GRAPHICS DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#our-services">Read More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-star service-icons"></i>
+                <div class="service-text">
+                    <h3>BRANDING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#our-services">Read More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-star service-icons"></i>
+                <div class="service-text">
+                    <h3>MARKTING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#our-services">Read More</a>
                 </div>
             </div>
         </div>
